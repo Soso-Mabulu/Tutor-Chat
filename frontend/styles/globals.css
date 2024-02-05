@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: .875rem;
+}
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(247,247,248);
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;     
+}
+
+/* Auth Page */
+.logo {
+  font-size: 32px; 
+  padding-bottom: 12px;
+  border-radius: 50px;
+  
+}
+.text {
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+}
+.textHead {
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+.button {
+  background: linear-gradient(45deg, #10a37f, #4acfac);
+  border: none;
+  padding: .8rem 2.85rem;
+  color: white;
+  font-size: .895rem;
+  font-weight: 600;
+  border-radius: .35rem;
+  margin: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background: linear-gradient(45deg, #10886a, #3a9c86);
+}
+
